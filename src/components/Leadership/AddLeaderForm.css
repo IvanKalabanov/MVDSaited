@@ -1,0 +1,17 @@
+/* src/components/Leadership/AddLeaderForm.css */
+/* Стили для формы добавления руководителя */
+.large-modal {
+  max-width: 700px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}

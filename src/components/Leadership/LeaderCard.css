@@ -1,0 +1,85 @@
+/* src/components/Leadership/LeaderCard.css */
+.leader-card {
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.leader-delete-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: var(--radius-full);
+  background: rgba(239, 68, 68, 0.9);
+  color: var(--white);
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition);
+  line-height: 1;
+}
+
+.leader-delete-btn:hover {
+  background: var(--error);
+  transform: scale(1.1);
+}
+
+.leader-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.leader-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.leader-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: var(--accent-gold);
+  color: var(--primary-blue);
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.leader-info {
+  padding: 20px;
+}
+
+.leader-name {
+  color: var(--primary-blue);
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+}
+
+.leader-position {
+  color: var(--gray-dark);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.leader-bio {
+  color: var(--gray-dark);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.leader-contacts {
+  background: var(--gray-light);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}

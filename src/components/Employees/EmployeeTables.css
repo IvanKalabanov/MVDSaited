@@ -1,0 +1,50 @@
+/* src/components/Employees/EmployeeTables.css */
+.employees-page {
+  padding: 20px 0;
+}
+
+.departments-nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid var(--gray-light);
+  flex-wrap: wrap;
+}
+
+.department-tab {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--gray-dark);
+  font-weight: 500;
+}
+
+.department-tab:hover {
+  background: var(--gray-light);
+  color: var(--primary-blue);
+}
+
+.department-tab.active {
+  color: var(--primary-blue);
+  border-bottom-color: var(--accent-gold);
+  background: var(--gray-light);
+}
+
+.dept-icon {
+  font-size: 1.2rem;
+}
+
+.employee-count {
+  background: var(--light-blue);
+  color: var(--white);
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  margin-left: 5px;
+}

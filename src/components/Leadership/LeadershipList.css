@@ -1,0 +1,11 @@
+/* src/components/Leadership/LeadershipList.css */
+.leadership-list {
+  padding: 20px 0;
+}
+
+.leaders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
